@@ -1,0 +1,25 @@
+#articleContent {
+  padding: 0px 45px 59px 45px;
+
+  &>view {
+    padding-bottom: 59px;
+  }
+
+  #articleContentTitle {
+
+    font-size: 42px;
+    color: #2D3C51;
+  }
+
+  #articleContentImage {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 59px;
+    width: 100%;
+
+    image {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+}

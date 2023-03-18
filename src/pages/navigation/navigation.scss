@@ -1,0 +1,22 @@
+#navigationBar {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: #26354B;
+  overflow-y: hidden;
+
+  #navigationUserInfoBox {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 58px;
+
+    .userRightIcon {
+      margin-right: 170px;
+      margin-top: 20px;
+    }
+  }
+
+
+}

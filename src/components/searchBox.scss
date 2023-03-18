@@ -1,0 +1,22 @@
+#searchBox {
+  margin: 43px 48px 0 48px;
+
+  #searchBar {
+    display: flex;
+    border-radius: 20px;
+    height: 100;
+    width: 100%;
+    background-color: #EBECEF;
+    box-sizing: border-box;
+    padding: 32px 38px;
+
+    #searchIcon{
+        margin-right: 30px;
+    }
+
+    input{
+        color: #979DA8;
+        font-size: 29px;
+    }
+  }
+}

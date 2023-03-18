@@ -1,0 +1,15 @@
+.squareButton{
+    width: 96px;
+    height: 96px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #E6E7E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    visibility: hidden;
+}

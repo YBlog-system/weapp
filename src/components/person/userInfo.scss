@@ -1,0 +1,26 @@
+.userLeftBox {
+  display: flex;
+
+  .headImg {
+    width: 84px;
+    height: 84px;
+    margin-right: 23px;
+    border-radius: 50px;
+  }
+
+  .userRightBox {
+    display: flex;
+    flex-direction: column;
+
+    .userName {
+      font-size: 37px;
+      color: #F7F7F8;
+    }
+
+    .readTime {
+      font-size: 25px;
+      color: #7F8895;
+    }
+
+  }
+}

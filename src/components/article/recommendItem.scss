@@ -1,0 +1,35 @@
+.recommendItem {
+  width: 550px;
+  height: 90%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 30px;
+  box-shadow: 10px 10px 40px #e3e3e3;
+  box-sizing: border-box;
+
+  .recommendImage {
+    width: 490px;
+    border-radius: 20px;
+    height: 50%;
+  }
+
+  .recommendTypeBox {
+    color: #A7ADB6;
+    padding: 43px 0;
+    font-size: 25px;
+
+    text:nth-child(2){
+      padding: 0 43px;
+    }
+  }
+
+  .recommendTitle{
+    color: #27364B;
+    font-size: 37px;
+    margin-bottom: 43px;
+  }
+
+
+
+}

@@ -1,0 +1,30 @@
+#cardBoxBorder {
+  margin: 30px 50px 0 50px;
+
+  $cardWidth: 605px;
+  $cardHeight: 760px;
+
+
+  #cardBox {
+    white-space: nowrap;
+
+    .card {
+      display: inline-block;
+      opacity: 0.5;
+      width: $cardWidth * .85;
+      background-color: #FFFFFF;
+      border-radius: 30px;
+
+      transition: all .5s;
+
+      position: relative;
+      bottom: 110px;
+
+      &.active {
+        bottom: 0;
+        min-width: $cardWidth;
+        opacity: 1;
+      }
+    }
+  }
+}

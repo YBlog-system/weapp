@@ -1,0 +1,37 @@
+.articleItem {
+  display: flex;
+  width: 650px;
+  height: 235px;
+  margin-bottom: 43px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px #e3e3e3;
+
+  .articleLeftImg {
+    width: 185px;
+    height: 235px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .articleRightBox {
+    box-sizing: border-box;
+    padding: 29px 10px 29px 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .articleTypeBox {
+      font-size: 23px;
+      color: #B1B1B1;
+    }
+
+    .articleTitle {
+      font-size: 31px;
+      color: #26354B;
+      width: 400px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

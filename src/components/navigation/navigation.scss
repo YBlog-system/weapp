@@ -1,0 +1,25 @@
+#navigationBox {
+  padding: 5px 43px;
+}
+
+.navigationItem {
+  display: flex;
+  align-items: center;
+  padding: 34px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  font-size: 32px;
+  color: #747E8C;
+
+  &.active {
+    color: #F7F7F8;
+    background-color: #313F54;
+  }
+
+  .navigationItemIcon {
+    margin-right: 34px;
+  }
+}
+
+

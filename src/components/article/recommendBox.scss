@@ -1,0 +1,27 @@
+#recommendBox{
+    margin: 0 48px;
+    
+    #recommendTitle{
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        padding: 43px 0;
+        justify-content:space-between;
+        align-items: center;
+
+        text:nth-child(1){
+            color: #334054;
+        }
+
+        text:nth-child(2){
+            color: #9DA4AE;
+            font-size: 26px;
+        }
+    }
+
+    #recommendList{
+        height: 840px;
+        display: flex;
+        overflow-x: scroll;
+    }
+}
