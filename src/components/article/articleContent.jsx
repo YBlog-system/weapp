@@ -32,6 +32,7 @@ export default class index extends Component {
   render() {
     const { articleData } = this.state;
     const releaseTime = timeFormat(articleData.pubtime);
+    const titleImg = articleData.titleImg || img;
     // console.log("articleData: ", articleData);
 
     return (
@@ -46,7 +47,7 @@ export default class index extends Component {
           id='articleAuthorInfo'
         ></AuthorInfo>
         <View id='articleContentImage'>
-          <Image src={img} mode='aspectFill' />
+          <Image src={titleImg} mode='aspectFill' />
         </View>
         <MarkdownBox content={articleData.content} />
       </View>

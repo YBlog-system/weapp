@@ -19,20 +19,24 @@ export default class index extends Component {
   }
 
   render() {
-    const { data } = this.props;
-    const releaseTime = timeFormat(data.pubtime);
-    console.log("data: ", data);
+    const { data: articleData } = this.props;
+    const releaseTime = timeFormat(articleData.pubtime);
+
+    const titleImg = articleData.titleImg || img;
+    console.log('titleImg: ', titleImg);
+
+    console.log("data: ", articleData);
 
     return (
       <View className='recommendItem' onClick={this.handleNavigate.bind(this)}>
-        <Image className='recommendImage' mode='aspectFill' src={img} />
+        <Image className='recommendImage' mode='aspectFill' src={titleImg} />
         <View className='recommendTypeBox'>
-          <Text>{data.typeName}</Text>
+          <Text>{articleData.typeName}</Text>
           <Text>•</Text>
           <Text>推荐</Text>
         </View>
         <View className='recommendTitle'>
-          <Text>{data.title}</Text>
+          <Text>{articleData.title}</Text>
         </View>
 
         <AuthorInfo
